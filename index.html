@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div class="menu-nav" id="navbar">
+                    <div class="icon-web">
+                        <img src="assets/3d-printer (1).png" alt="">
+                        <h1 class="nama-icon">Print</h1>
+                    </div>
+                    <ul class="menuRight">
+                        <li class="searchBox">
+                            <input type="text" class="searchInput" placeholder="Search...">
+                            <button class="searchButton" href="#">
+                                <i class="material-icons">
+                                    <img src="assets/magnifying-glass.png" alt="">
+                                </i>
+                            </button>
+                        </li>
+                        <li class="login">
+                            <a href="#login">
+                                <h2>Login</h2>
+                                <img src="assets/enter.png" alt="">
+                            </a>
+                        </li>
+                        <li class="hamburger" onclick="toggleMenu()">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!---->
+    <main class="content">
+        <section>
+            <div class="background">
+                <div class="upload">
+                    <h1>Melayani Custom 3D Printing Online</h1>
+                    <p>pesan sekarang atau unggah desainmu dan tanyakan ke customer service kami</p>
+                    <div class="box-upload">
+                        <div class="img-print-3d"></div>
+                        <h2>Mulai cetak desainmu</h2>
+                        <h5>STEP | STP | SLDPRT | STL | IPT | 3MF | 3DXML | PRT | SAT files</h5>
+                        <input type="file" id="fileid" hidden/>
+                        <input type="button" id="buttonid" value="Unggah Desain"/>
+                        <button class="kirim">Kirim</button>
+                        <div class="lock">
+                            <img src="assets/lock.png" alt="">
+                            <p>Semua data yang diunggah aman dan rahasia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="material">
+            <div class="class-material">
+                <h1>Pilihan Bahan 3D Printing terbaik</h1>
+                <div class="grid-class-material">
+                    <div class="material-photo-item" id="item-1">
+                        <p>Nylon</p>
+                    </div>
+                    <div class="material-photo-item" id="item-2">
+                        <p>ABS</p>
+                    </div>
+                    <div class="material-photo-item" id="item-3">
+                        <p>ULTEM</p>
+                    </div>
+                    <div class="material-photo-item" id="item-4">
+                        <p>Elastomers</p>
+                    </div>
+                    <div class="material-photo-item" id="item-5">
+                        <p>Metal 3D Print</p>
+                    </div>
+                    <div class="material-photo-item" id="item-6">
+                        <p>Polyjet 3D</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="about-us">
+                    <div class="about-us-header">
+                        <h1>Tentang Kami</h1>
+                    </div>
+                    <div class="about-us-img">
+                        <img src="assets/about-us-1.jpg" alt="">
+                    </div>
+                    <div class="information">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos itaque explicabo dolores. Illo consequuntur ducimus, veritatis fugiat sequi ut, doloribus a, aliquid laudantium tempore nam non in facere dignissimos vero.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid-klien">
+            <div class="klien">
+                <h1>Klien Kami</h1>
+            </div>
+            <div class="grid-klien-logo">
+                <div class="photo-klien" id="photo-1">
+                    <img src="assets/klien/Dycode-X.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-2">
+                    <img src="assets/klien/Jala.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-3">
+                    <img src="assets/klien/kai.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-4">
+                    <img src="assets/klien/Mandiri-Mitra-Muhibbah.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-5">
+                    <img src="assets/klien/maranatha-.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-6">
+                    <img src="assets/klien/mayapada-hospital.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-7">
+                    <img src="assets/klien/Nikko-Cahaya-Electric.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-8">
+                    <img src="assets/klien/polban.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-9">
+                    <img src="assets/klien/PT_WIKA_Industri_Konstruksi.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-10">
+                    <img src="assets/klien/rbk.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-11">
+                    <img src="assets/klien/semen.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-12">
+                    <img src="assets/klien/Telkom_University.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-13">
+                    <img src="assets/klien/uad.png" alt="">
+                </div>
+                <div class="photo-klien" id="photo-14">
+                    <img src="assets/klien/upi.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="pencapaian">
+            <div class="pencapaian-tag">
+                <div class="judul-pencapaian-tag">
+                    <h1>Pencapaian Kami</h1>
+                </div>
+                <div class="produksi">
+                    <p class="angka">1000</p>
+                    <p>+</p>
+                    <p class="gap-text">Komponen Diproduksi</p>
+                </div>
+                <div class="ulasan">
+                    <p class="angka">100</p>
+                    <p>+</p>
+                    <p class="gap-text">Pelanggan Bahagia</p>
+                </div>
+                <div class="paket">
+                    <p class="angka">20</p>
+                    <p>+</p>
+                    <p class="gap-text">Daerah Terkirim</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!---->
+    <footer></footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
