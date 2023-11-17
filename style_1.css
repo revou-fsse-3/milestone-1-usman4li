@@ -254,6 +254,44 @@
 .sticky + .content {
     padding-top: 60px;
 }
+
+.drop-down {
+    display: none;
+}
+@media screen and (min-width:920px) {
+    .drop-down {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: aliceblue;
+        top: 70px;
+        max-width: 920px;
+        margin: 0 auto;
+        z-index: 9999;
+        padding: 10px 0;
+        
+    }
+    .list-toggle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 100px;
+        cursor: pointer;
+    }
+    .list-toggle li {
+        list-style: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .void {
+        display: none;
+    }
+    .hamburger {
+        display: none;
+    }
+}
 /*end row navigasi*/
 /*end navbar*/
 /*main element*/
